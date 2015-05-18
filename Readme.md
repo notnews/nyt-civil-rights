@@ -18,4 +18,4 @@ Start by getting a [NYT Article Search API key](http://developer.nytimes.com/app
 License
 ------------
 
-Scripts are released under the [MIT License](License%20for%20Scripts.md).
+Scripts are released under the [MIT License](License.md).
