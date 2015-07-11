@@ -15,6 +15,11 @@ Start by getting a [NYT Article Search API key](http://developer.nytimes.com/app
 
 3. Script for [plotting the data](plot.R). See the [graph (pdf)](nyt_aa.pdf)
 
+**Note** 
+
+The scripts track number of articles containing the keyword search. But sometimes a more apt unit of measurement is proportion of articles mentioning the search term. The point is especially important over great lengths of time as over time the number of articles published in the NYT has been increasing. To get proportion of articles, you need to use the 'source facet'. For instance, if you look at the end of the output given by the following
+[API Request](http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=c2fede7bd9aea57c898f538e5ec0a1ee:6:68700045&facet_field=source&facet_filter=true&begin_date=20150710&end_date=20150710), you will see total number of articles from various sources (Reuters, AP, NYT, Internet Video Archive, CNBC etc.) for the specified date (2015-07-10).       
+
 License
 ------------
 
