@@ -24,7 +24,7 @@ results$startDate <- as.Date(as.character(results$startDate), format="%Y%m%d")
 ggplot(results, aes(x=startDate, y=cr))+
 geom_point(color="#42C4C7") +
 geom_smooth(method = "gam", formula = y ~ s(x), aes(group=1), size = 1, colour="#777777", alpha=0.05, se=F) +
-ylab("Number of Articles Containing the phrase Affirmative Action")+
+ylab("Number of Articles Containing Affirmative Phrases Related to Black Civil Rights")+
 xlab("Year")+
 theme_bw()+
 scale_x_date(breaks=pretty_breaks(n=10)) + 
