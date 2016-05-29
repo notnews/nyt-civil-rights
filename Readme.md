@@ -14,7 +14,7 @@ Start by getting a [NYT Article Search API key](http://developer.nytimes.com/app
 
 3. Script for [plotting the data](scripts/plot.R). See the [graph (pdf)](figs/nyt_aa.pdf)
 
-<img src="figs/nyt_aa.png" width="500">
+<img src="figs/nyt_aa.png" width="700">
 
 **Note** 
 
